@@ -1,0 +1,45 @@
+/* TODO: file Indice */
+.centrar {
+    display: flexbox;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.title-indice {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Times New Roman", "Courier New", Courier, monospace;
+}
+
+.subtitle.indice {
+    font-size: 1.5rem;
+    font-family: "Times New Roman", "Courier New", Courier, monospace;
+}
+
+.last-title-indice {
+    font-size: 1rem;
+    font-family: "Times New Roman", "Courier New", Courier, monospace;
+}
+
+.nav-indice li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-indice li a {
+    color: black;
+    font-size: 1rem;
+    font-family: "Times New Roman", "Courier New", Courier, monospace;
+    font-style: oblique;
+}
+
+.nav-indice li a:visited {
+    color: crimson;
+    text-decoration: none;
+}
+
+.nav-indice li a:hover {
+    color: #7aba96;
+    text-decoration: none;
+}

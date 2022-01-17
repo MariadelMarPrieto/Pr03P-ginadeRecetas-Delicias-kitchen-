@@ -1,0 +1,86 @@
+@import url("../../css/estilo.css");
+
+table {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+td {
+  background-color: rgba(22 19 216 / 15%);
+  border-radius: 3ex;
+  border: blueviolet solid;
+  overflow: hidden;
+}
+
+.titulo-tabla {
+  color: #181818;
+  font-size:30px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Times New Roman", "Courier New", Courier, monospace;
+  margin-bottom: 1rem;
+
+}
+
+.title-receta {
+  color: whitesmoke;
+  font-size:20px;
+  font-style: italic;
+  font-weight:bold;
+  font-family: "Times New Roman", "Courier New", Courier, monospace;
+  background-color: rgba(22 19 216 / 27%);
+  padding: 0.5rem 2rem;
+  margin-bottom: 1rem;
+}
+
+.colocacion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.figure-listado {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.imagen-receta {
+  width: 200px;
+}
+
+.paginacion {
+  margin: 20px 0;
+}
+
+.paginacion ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  padding: 0 1rem;
+}
+
+.paginacion ul li {
+  list-style: none;
+  margin-right: 10px;
+}
+
+.paginacion ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  background: #024959;
+  text-decoration: none;
+}
+
+.paginacion ul li a:hover {
+  background: #7aba96;
+}
+
+.paginacion ul li :active {
+  background: #037e8c;
+  font-weight: bold;
+}
